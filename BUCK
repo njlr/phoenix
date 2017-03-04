@@ -1,3 +1,5 @@
+include_defs('//BUCKAROO_DEPS')
+
 prebuilt_cxx_library(
   name = 'boost-phoenix', 
   header_only = True, 
